@@ -1,0 +1,20 @@
+#notFound-section{
+    margin: 54px 15px;
+}
+
+#notFound-section h2{
+    color: var(--color-font-quaternary);
+    font-size: 28px;
+    font-weight: 500;
+}
+
+@media (min-width: 576px){
+    #notFound-section{
+        margin: 54px 30px;
+    }
+
+    #notFound-section h2{
+        font-size: 33px;
+    }
+    
+}
