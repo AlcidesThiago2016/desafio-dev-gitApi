@@ -12,7 +12,7 @@ type FormData = {
 
 export default function HomeResult(){
 
-    const url = "https://api.github.com/users";
+    const url = 'https://api.github.com/users';
 
     const [formData, setFormData] = useState<FormData>({
         user: ''
