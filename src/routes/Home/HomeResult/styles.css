@@ -29,3 +29,24 @@
     color: var(--color-font-octanary);
 }
 
+.searchUser-card input::placeholder{
+    color: var( --color-font-placeholder);
+}
+
+@media (min-width: 576px){
+    #searchUser-section{
+        margin: 54px 30px;
+    }
+    .searchUser-card{
+        justify-content: center;
+        padding: 54px 30px;
+    }
+    .searchUser-card h3{
+        font-size: 33px;
+    }
+
+    .searchUser-card input{
+        max-width: 298px;
+    }
+
+}
